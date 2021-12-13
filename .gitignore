@@ -2,3 +2,4 @@ __pycache__/
 db.sqlite3
 README.md
 drf_env
+todo_service/.env

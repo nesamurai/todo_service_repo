@@ -80,6 +80,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'todo_service.wsgi.application'
 
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 100
+}
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
